@@ -1,0 +1,16 @@
+﻿{
+  "schema_version": "1.0.0",
+  "id": "token-burst-hud",
+  "name": "Token Burst HUD",
+  "version": "0.1.0",
+  "description": "Cyber-style realtime popup HUD for token usage bursts.",
+  "author": "whwd",
+  "license": "MIT",
+  "entry": "scripts/codexpp-adapter.js",
+  "skills": [
+    {
+      "id": "token-burst-hud",
+      "path": "skills/token-burst-hud/SKILL.md"
+    }
+  ]
+}
