@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Token Burst HUD Test</title>
+  <script src="./plugins/token-burst-hud/scripts/token-burst-hud.js"></script>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: radial-gradient(circle at 20% 10%, #14324a, transparent 30%),
+                  linear-gradient(135deg, #08101c, #1d1028);
+      color: white;
+      font-family: Segoe UI, Arial, sans-serif;
+    }
+    button {
+      border: 1px solid #5ff5ff;
+      color: #eaffff;
+      background: rgba(255,255,255,.08);
+      padding: 14px 22px;
+      border-radius: 12px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 0 24px rgba(95,245,255,.25);
+    }
+  </style>
+</head>
+<body>
+  <button onclick="TokenBurstHUD.record({ prompt_tokens: 120, completion_tokens: 45, total_tokens: 165 }, { model: 'test', source: 'manual-test' })">
+    触发 Token Burst HUD 测试弹窗
+  </button>
+</body>
+</html>
