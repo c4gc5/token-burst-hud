@@ -1,7 +1,7 @@
 {
-  "name": "token_burst_hud",
+  "name": "tokenbursthud",
   "version": "0.1.0",
-  "description": "Cyber-style realtime popup HUD for token usage bursts in Codex++.",
+  "description": "Realtime token usage popup HUD for Codex.",
   "author": {
     "name": "c4gc5",
     "email": "c4gc5@users.noreply.github.com",
@@ -19,8 +19,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Token Burst HUD",
-    "shortDescription": "Realtime token usage popup HUD",
-    "longDescription": "Display cyber-style realtime token usage bursts and session totals for Codex++ workflows.",
+    "shortDescription": "Realtime token usage HUD",
+    "longDescription": "Display realtime token usage bursts and session totals for Codex workflows.",
     "developerName": "c4gc5",
     "category": "Coding",
     "capabilities": [
@@ -32,8 +32,6 @@
     "defaultPrompt": [
       "Show realtime token usage with Token Burst HUD"
     ],
-    "composerIcon": "./assets/icon.svg",
-    "logo": "./assets/icon.svg",
     "screenshots": [],
     "brandColor": "#5FF5FF"
   }
