@@ -1,20 +1,20 @@
-﻿{
-    "name":  "token-burst-hud-marketplace-v2",
-    "interface":  {
-                      "displayName":  "Token Burst HUD Marketplace V2"
-                  },
-    "plugins":  [
-                    {
-                        "name":  "token-burst-hud",
-                        "source":  {
-                                       "source":  "local",
-                                       "path":  "./plugins/token-burst-hud"
-                                   },
-                        "policy":  {
-                                       "installation":  "AVAILABLE",
-                                       "authentication":  "ON_INSTALL"
-                                   },
-                        "category":  "Productivity"
-                    }
-                ]
+{
+  "name": "token-burst-hud-marketplace-v2",
+  "interface": {
+    "displayName": "Token Burst HUD Marketplace V2"
+  },
+  "plugins": [
+    {
+      "name": "token-burst-hud",
+      "source": {
+        "source": "local",
+        "path": "./plugins/token-burst-hud"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
 }
