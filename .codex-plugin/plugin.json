@@ -1,16 +1,40 @@
 ﻿{
-  "schema_version": "1.0.0",
-  "id": "token-burst-hud",
-  "name": "Token Burst HUD",
+  "name": "token-burst-hud",
   "version": "0.1.0",
-  "description": "Cyber-style realtime popup HUD for token usage bursts.",
-  "author": "whwd",
+  "description": "Cyber-style realtime popup HUD for token usage bursts in Codex++.",
+  "author": {
+    "name": "c4gc5",
+    "url": "https://github.com/c4gc5"
+  },
+  "homepage": "https://github.com/c4gc5/token-burst-hud",
+  "repository": "https://github.com/c4gc5/token-burst-hud",
   "license": "MIT",
-  "entry": "scripts/codexpp-adapter.js",
-  "skills": [
-    {
-      "id": "token-burst-hud",
-      "path": "skills/token-burst-hud/SKILL.md"
-    }
-  ]
+  "keywords": [
+    "token",
+    "usage",
+    "hud",
+    "codex",
+    "codex++"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Token Burst HUD",
+    "shortDescription": "Realtime token usage popup HUD",
+    "longDescription": "Display cyber-style realtime token usage bursts, session totals, and local-only token telemetry helpers for Codex++ workflows.",
+    "developerName": "c4gc5",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://github.com/c4gc5/token-burst-hud",
+    "privacyPolicyURL": "https://github.com/c4gc5/token-burst-hud",
+    "termsOfServiceURL": "https://github.com/c4gc5/token-burst-hud",
+    "defaultPrompt": [
+      "Show realtime token usage with Token Burst HUD"
+    ],
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg",
+    "screenshots": [],
+    "brandColor": "#5FF5FF"
+  }
 }
